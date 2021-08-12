@@ -1,9 +1,18 @@
-.super-container{
-	margin-top:3%;
-  margin-right:4%;
-  margin-left:4%  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.inputs{
-	margin-bottom: 2%;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: white;
+  color: #6E9FED;
 }
+
+header .logo {
+  font-size: 28px;
+}
+

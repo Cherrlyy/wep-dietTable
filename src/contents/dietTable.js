@@ -35,6 +35,7 @@ constructor(props) {
   }
 }
 
+
  class Input extends React.Component {
    constructor(props) {
     super(props);
@@ -50,7 +51,7 @@ constructor(props) {
 
 class Column extends React.Component {
   render(){
-    return <td style={{ "width": "2%" }}>
+    return <td style={{ "width": "30%" }}>
       {this.props.placeholder}
     </td>
   }

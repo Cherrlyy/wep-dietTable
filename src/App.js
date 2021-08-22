@@ -15,7 +15,7 @@ function App() {
       <body>
         <header className="App-header">
           <div className="logo">
-            <button className="title">Body Check √</button>
+            <button className="title">Body Check</button>
           </div>
           <div className="icon">
             <i className="icon-signal"></i>
